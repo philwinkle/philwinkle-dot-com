@@ -88,6 +88,13 @@
 
     	</div>
     </div>
+    <div class="footer">
+        <div class="footer-inner">
+            <div class="container">
+                <sub>&copy; <?php $date = new DateTime('now'); echo $date->format('Y'); ?> Phillip Jackson</sub>
+            </div>
+        </div>
+    </div>
     <!-- /container -->
 
     <style>
@@ -105,6 +112,9 @@
         /* fontawesome icons line-height in buttons */
         [class^="icon-"].pull-left {
             line-height: 20px;
+        }
+        .footer {
+            padding: 20px 0;
         }
       
     </style>
