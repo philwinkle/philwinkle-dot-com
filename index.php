@@ -28,12 +28,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Le styles -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-3.0.1.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-theme-3.0.1.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <style>
-      body { padding-top: 60px; /* 60px to make the container go all the way
-      to the bottom of the topbar */ }
-    </style>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -50,74 +48,65 @@
     </style>
   </head>
   <body>
-    <div class="navbar navbar-fixed-top">
-    	<div class="navbar-inner">
-    		<div class="container">
-    			<a class="brand jetstrap-highlighted jetstrap-selected" href="http://twitter.com/philwinkle">@philwinkle</a>
-    		</div>
-    	</div>
-    </div>
+    <header class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="http://twitter.com/philwinkle">@philwinkle</a>
+            </div>
+        </div>
+    </header>
     <div class="container">
-        <img src="http://www.gravatar.com/avatar/341518c6f0ba9e0bbb97a793cd9800c3.png" class="bighair pull-left"/>
-    	<h1>
-    		Phillip Jackson
-    	</h1>
-    	<p>
-    		Father, Musician, Coder // <a href="http://www.magentocommerce.com/certification/directory/dev/182675/">Magento Certified Developer</a>
-    	</p>
-    	<div>
-    		<br>
-    	</div>
-    	<div>
-    		Christ-follower.
-    	</div>
-    	<div>
-    		<br>
-    	</div>
-    	<p>
-    	</p>
-    	<div class="btn-group">
-    		<a href="http://github.com/philwinkle" class="btn">Github<i class="icon-github pull-left"></i></a>
-    		<a href="http://www.linkedin.com/in/philwinkle" class="btn">LinkedIn<i class="icon-linkedin pull-left"></i></a>
-    		<a href="http://stackexchange.com/users/284197/philwinkle" class="btn">StackExchange<i class="icon-stackexchange pull-left"></i></a>
-    	</div>
-    	<div>
-    		<br>
-    		<a class="twitter-timeline" href="https://twitter.com/philwinkle" data-widget-id="349577471189975041">Tweets by @philwinkle</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-    	</div>
-    </div>
-    <div class="footer">
-        <div class="footer-inner">
+        <div class="well">
             <div class="container">
-                <sub>&copy; <?php $date = new DateTime('now'); echo $date->format('Y'); ?> Phillip Jackson</sub>
+                
+            <img src="http://www.gravatar.com/avatar/341518c6f0ba9e0bbb97a793cd9800c3.png" class="bighair pull-left"/>
+            <h1>
+                Phillip Jackson
+            </h1>
+            <p>
+                Father, Musician, Coder, Christ-follower. // <a href="http://www.magentocommerce.com/certification/directory/dev/182675/">Three-time Magento Certified Developer</a>
+            </p>
+            </div>
+        </div>
+    	
+    	<div class="btn-group">
+    		<a href="http://github.com/philwinkle" class="btn btn-default">Github<i class="icon-github pull-left"></i></a>
+    		<a href="http://www.linkedin.com/in/philwinkle" class="btn btn-default">LinkedIn<i class="icon-linkedin pull-left"></i></a>
+    		<a href="http://stackexchange.com/users/284197/philwinkle" class="btn btn-default">StackExchange<i class="icon-stackexchange pull-left"></i></a>
+    	</div>
+        <h3>Latest Screencasts:</h3>
+        <div class="container">  
+            <div class="row">
+                <div class="col-md-8">
+                    <iframe name='quickcast1' src='http://quick.as/embed/y8gpsrrq' scrolling='no' frameborder='0' width='100%' allowfullscreen></iframe><script>!function(){function n(){var n=document.getElementsByName('quickcast1')
+                    for(var e in n){var t=n[e].offsetWidth
+                    n[e].height=t/1.60+'px'}}n(),window.onresize=n,window.addEventListener('message',function(n){if(n.data.indexOf('//quick.as/') != -1)window.location.href=n.data},!1)}()
+                    </script>
+
+                    <hr/>
+
+                    <iframe name='quickcast2' src='http://quick.as/embed/kkbahnlx' scrolling='no' frameborder='0' width='100%' allowfullscreen></iframe><script>!function(){function n(){var n=document.getElementsByName('quickcast2')
+                    for(var e in n){var t=n[e].offsetWidth
+                    n[e].height=t/1.60+'px'}}n(),window.onresize=n,window.addEventListener('message',function(n){if(n.data.indexOf('//quick.as/') != -1)window.location.href=n.data},!1)}()
+                    </script>
+
+                </div>
+                <div class="col-md-4">
+                    <a href="http://stackexchange.com/users/284197/philwinkle"><img src="http://stackexchange.com/users/flair/284197.png" width="208" height="58" alt="profile for philwinkle on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for philwinkle on Stack Exchange, a network of free, community-driven Q&amp;A sites" /></a>
+                    <br><br>  <div class="clearfix visible-xs"></div>
+
+                    <a class="twitter-timeline" href="https://twitter.com/philwinkle" data-widget-id="349577471189975041">Tweets by @philwinkle</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
             </div>
         </div>
     </div>
-    <!-- /container -->
+    <footer>
+        <div class="container">
+            <sub>&copy; <?php $date = new DateTime('now'); echo $date->format('Y'); ?> Phillip Jackson</sub>
+        </div>
+    </footer>
 
-    <style>
-        img.bighair { 
-            padding-right: 20px;
-            -webkit-clip-path: circle(40px, 40px, 40px);
-            clip-path: circle(40px, 40px, 40px);
-        }
-        img.bighair:hover {
-            -webkit-clip-path: circle(40px, 40px, 80px);
-            clip-path: circle(40px, 40px, 80px);
-            -webkit-transition: all .25s ease-in-out;
-            transition: all .25s ease-in-out;
-        }
-        /* fontawesome icons line-height in buttons */
-        [class^="icon-"].pull-left {
-            line-height: 20px;
-        }
-        .footer {
-            padding: 20px 0;
-        }
-      
-    </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
     </script>
     <script src="assets/js/bootstrap.js">
