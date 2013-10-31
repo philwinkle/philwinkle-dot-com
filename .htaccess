@@ -1,2 +1,9 @@
 RewriteEngine on
+
+# remove www from host
+RewriteCond %{HTTP_HOST} ^www\.(.+)
+RewriteCond %{HTTPS}s/%1 ^(on(s)|offs)/(.+)
+RewriteRule ^ http%2://%3%{REQUEST_URI} [L,R=301]
+
+# general rewrites
 RewriteRule ^index\.html? /index.php [L,R=301]
