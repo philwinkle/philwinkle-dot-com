@@ -51,21 +51,28 @@
     <header class="navbar navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="http://twitter.com/philwinkle">@philwinkle</a>
+                <a class="navbar-brand" href="#">@philwinkle</a>
             </div>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="http://philwinkle.com/">Home</a>
+                </li>
+                <li>
+                    <a href="http://blog.philwinkle.com/">Blog</a>
+                </li>
+            </ul>
         </div>
     </header>
     <div class="container">
         <div class="well">
             <div class="container">
-                
-            <img src="http://www.gravatar.com/avatar/341518c6f0ba9e0bbb97a793cd9800c3.png" class="bighair pull-left"/>
-            <h1>
-                Phillip Jackson
-            </h1>
-            <p>
-                Father, Musician, Coder, Christ-follower. // <a href="http://www.magentocommerce.com/certification/directory/dev/182675/">Three-time Magento Certified Developer</a>
-            </p>
+                <img src="http://www.gravatar.com/avatar/341518c6f0ba9e0bbb97a793cd9800c3.png" class="bighair pull-left"/>
+                <h1>
+                    Phillip Jackson
+                </h1>
+                <p>
+                    Father, Musician, Coder, Christ-follower. // <a href="http://www.magentocommerce.com/certification/directory/dev/182675/">3x Magento Certified Developer (MCD, MCD+, FED)</a>
+                </p>
             </div>
         </div>
     	

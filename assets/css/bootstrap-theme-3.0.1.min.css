@@ -59,7 +59,7 @@ img.bighair:hover {
 footer {
     padding: 60px 0 40px 0;
 }
-.navbar-brand {
+.nav a, .navbar-brand {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     color: #aaa;
